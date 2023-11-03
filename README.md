@@ -7,3 +7,11 @@ link para o grupo do whatsapp (https://chat.whatsapp.com/LiLMYeClIVd4f87bk41iJ5)
 
 ## link vídeo css
 - https://youtu.be/aHUtMbJw8iA?si=i53_zYBTPOxuGdHF
+
+## Envio AC
+Enviar os repositórios com os trabalhos feitos durante o período:
+- email: des-web@mangeli.com.br
+- assunto: [Desenvolvimento Web - tarde - AC]
+- conteúdo:
+   1. nome
+   2. endereço do repositório
