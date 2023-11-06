@@ -15,3 +15,7 @@ Enviar os repositórios com os trabalhos feitos durante o período:
 - conteúdo:
    1. nome
    2. endereço do repositório
+ 
+## Trabalho P2
+
+https://github.com/ibmec-tec/p2-desenvolvimento-web-2023-2
