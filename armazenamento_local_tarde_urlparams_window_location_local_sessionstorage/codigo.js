@@ -54,10 +54,19 @@ const handleClick = (e) => {
     localStorage.setItem('dados-original', artigo.dataset);
     localStorage.setItem('dados', JSON.stringify(artigo.dataset));
 
+    //sessionStorage
+    sessionStorage.setItem('id', artigo.dataset.id);
+    sessionStorage.setItem('nome_completo', artigo.dataset.nome_completo);
+    sessionStorage.setItem('nascimento', artigo.dataset.nascimento);
+    sessionStorage.setItem('altura', artigo.dataset.altura);
+    sessionStorage.setItem('dados-original', artigo.dataset);
+    sessionStorage.setItem('dados', JSON.stringify(artigo.dataset));
 
     console.log(acha_cookie('nome_completo'));
     console.log(localStorage.getItem('id'));
-    console.log(JSON.parse(localStorage.getItem('dados')).altura)
+    console.log(JSON.parse(localStorage.getItem('dados')).altura);
+
+    window.location = `outra.html?id=${artigo.dataset.id}&nome_completo=${artigo.dataset.nome_completo}`;
 }
 
 const acha_cookie = (chave) => {
